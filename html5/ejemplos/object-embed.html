@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Título de la página</title>
+    <meta charset="utf-8">     
+  </head>
+  <body>
+  
+    <h1>Object + embed (Mayor compatibilidad) con flash</h1>
+    <object data="http://manzdev.github.io/cursos-assets/html5/spankmonkey.swf">
+      <param name="quality" value="high">
+      <embed src="flash.swf" quality="high">
+    </object>
+    
+    <h1>Object + embed (Mayor compatibilidad) con PDF</h1>
+      <object data="http://manzdev.github.io/cursos-assets/html5/html5-cheatsheet-emezeta.pdf">
+      <embed src="http://manzdev.github.io/cursos-assets/html5/html5-cheatsheet-emezeta.pdf" type="application/pdf">
+    </object>
+    
+    <h1>Object + embed combinado (Object con PDF, si no lo soporta: embed con PNG y si no lo soporta, texto)</h1>
+      <object data="http://manzdev.github.io/cursos-assets/html5/html5-cheatsheet-emezeta.pdf">
+      <embed src="http://manzdev.github.io/cursos-assets/html5/han-chewie.png" type="image/png">
+      Este contenido no se visualiza en un navegador de texto
+    </object>
+  </body>
+</html>
