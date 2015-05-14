@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TÌtulo de la p·gina</title>
+    <title>T√≠tulo de la p√°gina</title>
     <meta charset="utf-8">     
   </head>
   <body>
@@ -10,20 +10,20 @@
       // Creamos un elemento <a></a>
       a = document.createElement('a');
       
-      // Le establecemos un atributo href (direcciÛn URL)
+      // Le establecemos un atributo href (direcci√≥n URL)
       a.href = "https://www.google.com/search?q=the+answer+to+life+the+universe+and+everything";
       
       // Le damos una palabra clave (anchor) al enlace
       a.textContent = 'Buscar el sentido de la vida';
       
-      // AÒadimos el elemento (almacenado en a) al <body> del documento
+      // A√±adimos el elemento (almacenado en a) al <body> del documento
       document.body.appendChild(a);
       // document.getElementsByTagName('body')[0].appendChild(a);   // Equivalente al anterior
       
-      // TambiÈn podrÌamos aÒadirlo a elementos concretos:
+      // Tambi√©n podr√≠os a√±adirlo a elementos concretos:
       // document.getElementById('data').appendChild(a);
       
-      // Si este <script> estuviera en <head>, habrÌa que utilizar el siguiente evento, para esperar a que el documento
+      // Si este <script> estuviera en <head>, habr√≠a que utilizar el siguiente evento, para esperar a que el documento
       // se encuentre completamente cargado...
       //document.addEventListener("DOMContentLoaded", function(event) { 
       //  document.getElementById('data').appendChild(a);
