@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario interceptado</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  <form action="http://www.google.com/search" method="get" name="formulario" onSubmit="check(event)">
+    Buscar: <input type="text" name="q">
+    <input type="submit" value="Buscar">
+  </form>
+  
+  <script>
+    function check(event) {
+      alert('Interceptado!');
+      event.preventDefault();   // Previene el comportamiento por defecto (lo cancela)      
+    }
+  </script>
+  
+</body>
+</html>
