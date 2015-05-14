@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manipular Select desde JS</title>
+  <meta charset="utf-8">
+</head>
+<body>
+
+  ¿Cuál es tu mascota favorita? 
+  <select onChange="show(this.options)">
+      <option value="cat" label="Gato">
+      <option value="dog" label="Perro">
+      <option value="sea-lion" label="León marino">
+  </select>
+
+  <div>
+    <p id="status"></p>
+  </div>
+
+  <script>
+    function show(o) {
+      var sel = o.selectedIndex;
+      document.getElementById('status').textContent = 'Has seleccionado: ' + o[sel].label;
+    }
+    // ¿Cómo marcar como seleccionado una opción de un select?
+    // document.getElementsByTagName('select')[0].options[2].selected = true
+  </script>
+  
+</body>
+</html>
