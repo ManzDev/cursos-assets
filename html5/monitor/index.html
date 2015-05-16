@@ -4,14 +4,21 @@
   <title>Monitor story</title>
   <meta charset="utf-8">
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">  
-  <link rel="stylesheet" href="index.ap.css" type="text/css">
+  <link rel="stylesheet" href="index.min.css" type="text/css">
+  <meta name="viewport" content="initial-scale=1, width=360, user-scalable=no">
   <meta property="og:title" content="Una triste historia...">
   <meta property="og:image" content="http://manzdev.github.io/cursos-assets/html5/monitor/monitor-story.png">
+  <script src="index.js"></script>
 </head>
 <body>
   
-  <audio src="sad-piano-music.mp3" autoplay></audio>
+  <audio id="song" src="sad-piano-music.mp3"></audio>
   <div id="cinema">
+  
+    <div id="f0">
+      <img src="monitor-story.png" alt="Monitor Story">
+      <button id="boton" onClick="play()">Play</button>
+    </div>
   
     <div id="f1">
       <p>Una triste historia...</p>
