@@ -1,0 +1,101 @@
+body {
+  background:#000;
+  color:#FFF;
+}
+
+#cinema {
+  width:640px;
+  height:480px;
+  margin:6em auto;
+  position:relative;
+}
+
+#cinema div {
+  width:640px;
+  height:480px;
+  font-family:Montserrat;
+  font-size:22px;
+  letter-spacing:-1px;
+  text-align:center;
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:0;
+}
+
+#cinema img.photo {
+  width:640px;
+  height:480px;
+  border:8px solid #FFF;
+  box-shadow:4px 4px 10px #333;
+}
+
+#cinema div p {
+  line-height:1700%;
+  text-shadow:2px 2px 5px #444;
+}
+
+.grayscale {
+  filter:grayscale(100%);
+          filter:grayscale(100%)
+}
+
+#f1 { animation: fade 5s linear; animation: fade 5s linear }
+#f2 { animation: fade 5s linear 5s; animation: fade 5s linear 5s }
+#f3 { animation: fade 5s linear 10s; animation: fade 5s linear 10s }
+#f4 { animation: fade 5s linear 15s; animation: fade 5s linear 15s }
+#f5 { animation: fade 5s linear 20s; animation: fade 5s linear 20s }
+#f6 { animation: fade 5s linear 25s; animation: fade 5s linear 25s }
+#f7 { animation: fade 5s linear 30s; animation: fade 5s linear 30s }
+#f8 { animation: fade 5s linear 35s; animation: fade 5s linear 35s }
+#f9 { animation: fade 5s linear 40s; animation: fade 5s linear 40s }   
+#f10 { animation: fade 5s linear 45s; animation: fade 5s linear 45s }
+#f11 { animation: fade 5s linear 50s; animation: fade 5s linear 50s }
+#f12 { animation: fade 5s linear 55s; animation: fade 5s linear 55s }
+#f13 { animation: fade 5s linear 60s; animation: fade 5s linear 60s }
+#f14 { animation: fade 5s linear 65s; animation: fade 5s linear 65s }
+#f15 { animation: fade 5s linear 70s; animation: fade 5s linear 70s }
+#f16 { animation: fade 10s linear 75s; animation: fade 10s linear 75s }
+
+#f16 .m1 { opacity:0; animation: fadeend 3s linear 75s forwards; animation: fadeend 3s linear 75s forwards }
+#f16 .m2 { opacity:0; animation: fadeend 3s linear 78s forwards; animation: fadeend 3s linear 78s forwards }
+#f16 .m3 { opacity:0; animation: fadeend 3s linear 81s forwards; animation: fadeend 3s linear 81s forwards }
+
+#f17 { animation: fadeend 5s linear 85s forwards; animation: fadeend 5s linear 85s forwards }
+
+@keyframes fade {
+
+  0% {
+    opacity:0;
+  }
+
+  50% {
+    opacity:1;
+  }
+
+  100% {
+    opacity:0;
+  }
+}
+
+@keyframes fade {
+  0% { opacity:0 }
+  50% { opacity:1 }
+  100% { opacity:0 }
+}
+
+@keyframes fadeend {
+
+  0% {
+    opacity:0;
+  }
+
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes fadeend {
+  0% { opacity:0 }
+  100% { opacity:1 }
+}
