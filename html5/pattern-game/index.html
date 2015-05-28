@@ -7,12 +7,18 @@
 	<script src="index.min.js"></script>
 </head>
 <body>
-	
 	<div id="title">Pattern People <span>A regexp game</span></div>
 	<div id="general">
 		<div id="content"></div>
 		<div id="test">
-			<div id="info"><p><strong>Nivel 1</strong>: Crea un input que sólo valide cuando se introduce un DNI...</p></div>
+			<div id="info">
+				<p><strong>Ejercicio 1</strong>: Crea una expresión regular que acepte cualquier palabra de longitud 9 carácteres</p>
+				<p class="off"><strong>Ejercicio 2</strong>: Crea una expresión regular que acepte cualquier DNI que empiece por 5</p>
+				<p class="off"><strong>Ejercicio 3</strong>: Crea una expresión regular que acepte todos los DNIs con formato 8 cifras + letra mayúscula</p>
+				<p class="off"><strong>Ejercicio 4</strong>: Crea una expresión regular que acepte todos los DNIs con formato 8 cifras + letra mayús/minús</p>
+				<p class="off"><strong>Ejercicio 5</strong>: Crea una expresión regular que acepte todos los DNIs (incluído formato extranjero)</p>
+				<button onClick="nextLevel()">Next</button>
+			</div>
 			<span class="tags">&lt;input pattern="<input type="text" id="userinput">"&gt;</span>
 		</div>
 	</div>
