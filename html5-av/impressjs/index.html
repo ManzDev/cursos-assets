@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es"></html>
+<head>
+  <!-- Metadatos-->
+  <title>Título de página</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1024">
+  <meta name="description" content="Descripción">
+  <meta name="author" content="Nombre del autor">
+  <!-- Relaciones-->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic">
+  <link rel="stylesheet" href="impress.base.min.css">
+  <link rel="stylesheet" href="darkgrey.theme.min.css">
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+  <!-- Fallback (navegadores no compatibles)-->
+  <div class="fallback-message">
+    <p>Tu navegador <b>no soporta HTML5</b>. Para una mejor experiencia, por favor, utiliza un navegador moderno compatible con HTML5.</p>
+  </div>
+  <!-- Comenzamos impress.js-->
+  <div id="impress">
+    <div id="slide1" data-x="-1000" data-y="-1500" class="step slide">
+      <q>Un texto de ejemplo del primer slide.</q>
+    </div>
+    <div id="slide2" data-x="0" data-y="-1500" class="step slide">
+      <q>Otro texto de ejemplo del slide 2.</q>
+    </div>
+    <div id="titulo" data-x="0" data-y="0" data-scale="4" class="step">
+      <p>Otro ejemplo para el slide 3.</p>
+      <h1>impress.js</h1>
+    </div>
+    <div id="overview" data-x="3000" data-y="1500" data-scale="10" class="step"></div>
+  </div>
+  <!-- Sugerencia inicial-->
+  <div class="hint">
+    <p>Pulsa <kbd>espacio</kbd> o <kbd>&#8594;</kbd> para avanzar.</p>
+  </div>
+  <script src="impress.min.js"></script>
+  <script>impress().init();</script>
+</body>

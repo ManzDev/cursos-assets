@@ -1,0 +1,43 @@
+// output:index.html
+doctype html
+html(lang="es")
+head
+  // Metadatos
+  title Título de página
+  meta(charset="utf-8")
+  meta(name="viewport", content="width=1024")
+  meta(name="description", content="Descripción")
+  meta(name="author", content="Nombre del autor")
+  
+  // Relaciones
+  link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic")
+  link(rel="stylesheet", href="impress.base.min.css")
+  link(rel="stylesheet", href="darkgrey.theme.min.css")
+  link(rel="icon", href="favicon.png")
+body
+  // Fallback (navegadores no compatibles)
+  div.fallback-message
+    p Tu navegador <b>no soporta HTML5</b>. Para una mejor experiencia, por favor, utiliza un navegador moderno compatible con HTML5.
+
+  // Comenzamos impress.js
+  div#impress
+    
+    div#slide1.step.slide(data-x="-1000", data-y="-1500")
+      q Un texto de ejemplo del primer slide.
+    
+    div#slide2.step.slide(data-x="0", data-y="-1500")
+      q Otro texto de ejemplo del slide 2.
+      
+    div#titulo.step(data-x="0" data-y="0" data-scale="4")
+      p Otro ejemplo para el slide 3.
+      h1 impress.js
+      
+    div#overview.step(data-x="3000", data-y="1500", data-scale="10")
+  
+  // Sugerencia inicial
+  div.hint
+    p Pulsa <kbd>espacio</kbd> o <kbd>&#8594;</kbd> para avanzar.
+  
+  script(src="impress.min.js")
+  script.
+    impress().init();
