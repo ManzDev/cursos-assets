@@ -1,0 +1,1 @@
+Esto es un pequeño ejemplo de los problemas que podría acarrear un fichero o archivo de texto con mala codificación. ¡Los signos de puntuación, la exclamación o la interrogación entre otros se podrían ver de forma inadecuada! Por no hablar de nuestra querida ñ. ¿Cómo leeríamos palabras como "ñame", "peña" o "cañón"?
