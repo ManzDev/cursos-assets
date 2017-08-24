@@ -1,0 +1,24 @@
+---
+id: 1
+name: Gordon Freeman
+health: 100
+inv:
+- crowbar
+- gravity zero weapon
+- hev suit
+relations:
+  friends:
+  - id: 88
+    name: Chell
+  - id: 21
+    name: Barney
+  - id: 90
+    name: Companion Cube
+  enemies:
+  - id: 11
+    name: Nihilanth
+  - id: 7
+    name: G-Man
+  - id: 91
+    name: Turret
+author: Valve

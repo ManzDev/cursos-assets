@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <id>1</id>
+  <name>Gordon Freeman</name>
+  <health>100</health>
+  <inv>crowbar</inv>
+  <inv>gravity zero weapon</inv>
+  <inv>hev suit</inv>
+  <relations>
+    <friends>
+      <id>88</id>
+      <name>Chell</name>
+    </friends>
+    <friends>
+      <id>21</id>
+      <name>Barney</name>
+    </friends>
+    <friends>
+      <id>90</id>
+      <name>Companion Cube</name>
+    </friends>
+    <enemies>
+      <id>11</id>
+      <name>Nihilanth</name>
+    </enemies>
+    <enemies>
+      <id>7</id>
+      <name>G-Man</name>
+    </enemies>
+    <enemies>
+      <id>91</id>
+      <name>Turret</name>
+    </enemies>
+  </relations>
+  <author>Valve</author>
+</root>
