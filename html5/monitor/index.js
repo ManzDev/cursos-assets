@@ -1,5 +1,5 @@
 function play() {
-	document.getElementById('f0').setAttribute('style', 'display:none!important');
-	document.getElementById('song').play();
-	document.getElementById('cinema').removeAttribute('class');
+	document.querySelector('.first-slide').style.display = 'none!important';
+	document.querySelector('#song').play();
+	document.querySelector('#cinema').removeAttribute('class');
 }

@@ -3,95 +3,102 @@
 <head>
   <title>Monitor story</title>
   <meta charset="utf-8">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">  
-  <link rel="stylesheet" href="index.min.css" type="text/css">
-  <meta property="og:title" content="Una triste historia...">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+  <link rel="stylesheet" href="index.min.css">
+  <link rel="icon" href="monitor-icon.png">
+  <meta property="og:title" content="La triste historia del monitor">
   <meta property="og:image" content="http://manzdev.github.io/cursos-assets/html5/monitor/monitor-story.png">
   <script src="index.js"></script>
 </head>
 <body>
-  
-  <audio id="song" src="sad-piano-music.mp3"></audio>
+
+  <audio id="song">
+    <source src="sad-piano-music.ogg" />
+    <source src="sad-piano-music.mp3" />
+  </audio>
+
   <div id="cinema" class="paused">
-  
-    <div id="f0">
+
+    <div class="slide first-slide">
       <img src="monitor-story.png" alt="Monitor Story">
       <button id="boton" onClick="play()">Play</button>
     </div>
-  
-    <div id="f1">
+
+    <div class="slide slide-1">
       <p>Una triste historia...</p>
     </div>
-    
-    <div id="f2">
+
+    <div class="slide slide-2">
       <img src="osl-logo.png" alt="OSL">
     </div>
-    
-    <div id="f3">
+
+    <div class="slide slide-3">
       <p>que muchos desconocen...</p>
     </div>
-    
-    <div id="f4">
+
+    <div class="slide slide-4">
       <img src="mz-logo.png" alt="OSL">
     </div>
-    
-    <div id="f5">
+
+    <div class="slide slide-5">
       <img class="photo" src="css3ed1.jpg" alt="Curso CSS3 Ed. 1">
     </div>
-    
-    <div id="f6">
+
+    <div class="slide slide-6">
       <p>es la historia de un pobre monitor...</p>
     </div>
 
-    <div id="f7">
+    <div class="slide slide-7">
+      <img class="mark" src="mark.png" alt="Marca roja">
       <img class="photo" src="css3ed2.jpg" alt="Curso CSS3 Ed. 2">
     </div>
-    
-    <div id="f8">
+
+    <div class="slide slide-8">
       <p>para el que de repente todo cambió...</p>
     </div>
-    
-    <div id="f9">
+
+    <div class="slide slide-9">
       <img class="photo" src="css3ed4.jpg" alt="Curso CSS3 Ed. 4">
     </div>
-    
-    <div id="f10">
+
+    <div class="slide slide-10">
       <p>Comenzó a ser marginado...</p>
     </div>
-    
-    <div id="f11">
+
+    <div class="slide slide-11">
       <img class="photo grayscale" src="css3ed6.jpg" alt="Curso CSS3 Ed. 6">
     </div>
-    
-    <div id="f12">
+
+    <div class="slide slide-12">
       <img class="photo grayscale" src="css3ed7.jpg" alt="Curso CSS3 Ed. 7">
     </div>
-    
-    <div id="f13">
-      <p>Sumido en el olvido...</p>
+
+    <div class="slide slide-13">
+      <p>...cuando hacían hueco para la foto</p>
     </div>
-    
-    <div id="f14">
+
+    <div class="slide slide-14">
       <img class="photo grayscale" src="css3ed8.jpg" alt="Curso CSS3 Ed. 8">
     </div>
-    
-    <div id="f15">
+
+    <div class="slide slide-15">
       <img class="photo grayscale" src="html5ed1.jpg" alt="Curso HTML5 Ed. 1">
     </div>
-    
-    <div id="f16">
-      <p><span class="m1">Por favor...</span> <span class="m2">en la próxima edición...</span> <span class="m3">piensa en él...</span></p>
+
+    <div class="slide slide-16">
+      <p><span class="m1">Por favor...</span> <span class="m2">en la próxima edición...</span><br>
+      <span class="mark m3">piensa en él</span></p>
     </div>
-    
-    <div id="f17">
+
+    <div class="slide slide-17">
       <img src="monitor-triste.png" alt="Monitor triste">
     </div>
-    
-    <div id="f18">
-      <a href="http://www.emezeta.com/cursos/diseno-web-css3"><img src="curso-css.png" alt="Cursos de CSS3 y HTML5 en Tenerife"></a>
-    </div>    
-    
+
+    <div class="slide slide-18">
+      <a href="https://www.emezeta.com/cursos/diseno-web-css3"><img src="curso-css.png" alt="Cursos de CSS3 en Tenerife"></a>
+    </div>
+
   </div>
-  
+
 </body>
 </html>
